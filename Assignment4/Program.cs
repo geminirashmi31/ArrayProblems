@@ -10,12 +10,11 @@ namespace Assignment4
     {
         static void Main(string[] args)
         {
-            // The code provided will print ‘Hello World’ to the console.
-            // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
-            Console.WriteLine("Hello World!");
-            Console.ReadKey();
+            int[] arr = { -7, 1, 5, 2, -4, 3, 0 };
+            int n = arr.Length;
 
-            // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
+            Console.WriteLine("Equilibrium index is " + Equilibrium.EquilibriumIndex(arr, n));
+            Console.ReadKey(); 
         }
     }
 }
